@@ -1,8 +1,11 @@
-# Search-Engine
-Search Engine built from scratch
+Search Engine
 
-Currently working on webcrawler to get the link and then add the keywords for the data.
+Previously attempting to make a general search engine. Now focusing on search engine for a popular movei streaming website. 
 
-Then will work on indexing and storing all the links
+So far crawler has been created to get all the links along with the titles of the movies
 
-Then will work on a ranking algorithm
+Currently working on setting up a vecotr Milvus database to store the titles and links. 
+
+Plans for Later:
+
+Create a friedly UI for users to intract with.
