@@ -1,0 +1,239 @@
+
+body{
+    background:black;
+}
+
+h2{
+    color:white;
+    font-weight:bold
+}
+
+.head1{
+    color:dodgerblue;
+
+}
+
+.heads{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    
+    padding:10px;
+    margin:0px;
+}
+
+footer{
+    margin-top: 45%;
+    background:rgb(99, 98, 98);
+    padding:10px;
+    opacity: 1;
+    z-index: -1;
+    
+}
+.footerText{
+    color:white;
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-start;
+}
+.email{
+    margin-right: 10px;
+}
+.info{
+    margin-right:10px
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title1{
+    color:dodgerblue
+}
+.title2{
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    color:gray;
+    font-size: larger;
+    
+    
+}
+.sub1{
+    color:gray;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.input{
+    background:gray;
+    margin:10px;
+    padding:10px;
+    width:200px;
+    z-index: 1;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+
+.submit{
+    background: dodgerblue;
+    color:white;
+    padding: 10px;
+    margin-top: 5px;
+    width:200px;
+    border-radius: 10px;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    font-size: larger;
+
+}
+
+.submit:hover{
+    opacity: 0.6;
+}
+
+
+.stars {
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  
+  .stars {
+    background-image: 
+      radial-gradient(2px 2px at 20px 30px, #eee, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    animation: zoom 7s infinite;
+    opacity: 0;
+  }
+  
+  .stars:nth-child(1) {
+    background-position: 50% 50%;
+    animation-delay: 0s;
+  }
+  .stars:nth-child(2) {
+    background-position: 20% 60%;
+    animation-delay: 500ms;
+  }
+  .stars:nth-child(3) {
+    background-position: -20% -30%;
+    animation-delay: 1s;
+  }
+  .stars:nth-child(4) {
+    background-position: 40% -80%;
+    animation-delay: 1500ms;
+  }
+  .stars:nth-child(5) {
+    background-position: -20% 30%;
+    animation-delay: 2s;
+  }
+  .stars:nth-child(6) {
+    background-position: 40% -80%;
+    animation-delay: 2500ms;
+  }
+  .stars:nth-child(7) {
+    background-position: -20% 30%;
+    animation-delay: 3s;
+  }
+  .stars:nth-child(8) {
+    background-position: -20% 30%;
+    animation-delay: 3500ms;
+  }
+  .stars:nth-child(9) {
+    background-position: 40% -80%;
+    animation-delay: 4s;
+  }
+  
+  @keyframes zoom {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+      animation-timing-function: ease-in;
+    } 
+    85% {
+      opacity: 1;
+      transform: scale(2.8);
+      animation-timing-function: linear;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(3.5);
+    }
+  }
+
+  .mess{
+    visibility: hidden;
+    color: dodgerblue;
+  }
+
+
+  .bar1{
+    color:dodgerblue;
+  }
+
+
+ 
+
+.bars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+
+
+#result .response{
+    color:dodgerblue;
+}
+
+#result .myflix{
+  display: flex;
+  flex-direction: column;
+}
+
+#result .search{
+  display:flex;
+  flex-direction: row;
+}
+
+#result .movies{
+  color:dodgerblue;
+  font-size: large;
+}
+
+#result .headss{
+  display: flex;
+  flex-direction: row;
+}
+
+#result .stuff{
+  color:dodgerblue;
+  margin-right: 3px;
+}
+
+

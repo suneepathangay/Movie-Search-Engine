@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>MovieSearch</title>
+
+    </head>
+
+    <body>
+        <div class="bars">
+            <h2 class="bar1">Movie</h2>
+            <h2 class="bar2">Search</h2>
+        </div>
+        
+        <div id="result" class="main">
+            <div class="myflix">
+                <div class="search">
+                    <input class="input" id="input" />
+                    <button onclick="getInputValue()" class="submit" id="submit">Search</button>
+                </div>
+                <div class="headss">
+                    <h2 class="stuff">Showing results for </h2>
+                    <h2 class="response">
+                        Showing results for
+                    </h2>
+                </div>
+                <p class="summ">Movies</p>
+                
+                 <div class="movies">   
+                    <p class="movie0"></p>
+                    <p class="movie1"></p>
+                    <p class="movie2"></p>
+                    <p class="movie3"></p>
+                    <p class="movie4"></p>
+                </div>
+               
+
+
+                
+
+            </div>
+            
+
+
+        </div>
+        <script src="/search.js"></script>
+        
+        <script type="text/javascript">
+            displayResults()
+          </script>
+          
+
+    </body>
+
+</html>
